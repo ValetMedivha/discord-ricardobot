@@ -119,4 +119,4 @@ async def on_message(message):
 		await message.channel.send("Not implemented yet!")
 
 
-client.run("NjczOTE3MjY4MTI3NjQ1NzE4.XjrR4g.ix0hw9IXd8pGYt1OfdyTBgE40BQ")
+client.run("NjczOTE3MjY4MTI3NjQ1NzE4.Xsp3Sg.vTk9SFlMRVOOk8bAvdqM7-zVLus")
