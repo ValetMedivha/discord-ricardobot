@@ -102,7 +102,21 @@ async def on_message(message):
 	if message.content.startswith('!someone'):
 		chosen_user = random.choice(client.users)
 		await message.channel.send("{}".format(chosen_user.mention))
+# Entity
+    if message.content.startswith('@Entity'):
+		await message.channel.send("-p Дядя Володя")
+#song 
+	if message.content.startswith("!song"):
+		await message.channel.send("Not implemented yet!")
+#help 
+	if message.content.startswith("!help"):
+		await message.channel.send("Not implemented yet!")
+#gameslist 
+	if message.content.startswith("!games"):
+		await message.channel.send("Not implemented yet!")
+#tictactoe
+	if message.content.startswith("!tictactoe"):
+		await message.channel.send("Not implemented yet!")
 
 
-
-client.run("NjczOTE3MjY4MTI3NjQ1NzE4.XjhH0Q.vlcQngHNqAo5XScRf6bYamVCdNM")
+client.run("NjczOTE3MjY4MTI3NjQ1NzE4.XjrR4g.ix0hw9IXd8pGYt1OfdyTBgE40BQ")
